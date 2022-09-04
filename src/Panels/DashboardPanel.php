@@ -281,7 +281,7 @@ class DashboardPanel extends DataObject
      */
     public function getSize(): string
     {
-        return $this->PanelSize;
+        return (string) $this->PanelSize;
     }
 
     /**
