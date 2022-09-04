@@ -10,6 +10,7 @@ SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - ilateral\SilverStripe\Dashboard\Extensions\DashboardSiteConfig
 
-SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
-  extensions:
-    - ilateral\SilverStripe\Dashboard\Extensions\DashboardItemEditForm
+# this is so generic, it can break lots of other things.
+#SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
+#  extensions:
+#    - ilateral\SilverStripe\Dashboard\Extensions\DashboardItemEditForm
