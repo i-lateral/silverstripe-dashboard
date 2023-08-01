@@ -3,11 +3,11 @@ de:
     AddNew: 'Neue Seite hinzufügen'
     ListFiltered: 'Gefilterte Liste.'
     TreeFilteredClear: 'Filter leeren'
-  ilateral\SilverStripe\Dashboard\Dashboard_Content:
+  Sunnysideup\Dashboard\Dashboard_Content:
     ADMINISTRATION: Administration
-  ilateral\SilverStripe\Dashboard\DashboardModelAdmin:
+  Sunnysideup\Dashboard\DashboardModelAdmin:
     COUNT: 'Anzahl der Objekte zur Anzeige'
-  ilateral\SilverStripe\Dashboard\Dashboard:
+  Sunnysideup\Dashboard\Dashboard:
     QUICKLINKSDESCRIPTION: 'Ermöglicht die Verwaltung von beliebigen Links aus dem Dashboard heraus'
     SECTIONEDITORDESCRIPTION: 'Holt Seiten aus einem Bereich der Website zur Anzeige und Erstellung'
     ACCESS: 'Zugriff zum ''{title}'' Bereich'
@@ -69,44 +69,44 @@ de:
     WEATHER: Wetter
     WEATHERDESCRIPTION: 'Zeigt das Wetter für den angegebenen Ort.'
     WEATHERNORESPONSE: 'Der Wetter-Server antwortet nicht. Versuchen Sie es in wenigen Minuten erneut.'
-  ilateral\SilverStripe\Dashboard\DashboardGoogleAnalyticsPanel:
+  Sunnysideup\Dashboard\DashboardGoogleAnalyticsPanel:
     PLURALNAME: 'Dashboard Google Analytics Felder'
     SINGULARNAME: 'Dashboard Google Analytics Feld'
-  ilateral\SilverStripe\Dashboard\DashboardModelAdminPanel:
+  Sunnysideup\Dashboard\DashboardModelAdminPanel:
     PLURALNAME: 'Model Admins'
     SINGULARNAME: 'Model Admin'
-  ilateral\SilverStripe\Dashboard\DashboardPanel:
+  Sunnysideup\Dashboard\DashboardPanel:
     PLURALNAME: 'Dashboard Felder'
     SINGULARNAME: 'Dashboard Feld'
-  ilateral\SilverStripe\Dashboard\DashboardPanelDataObject:
+  Sunnysideup\Dashboard\DashboardPanelDataObject:
     PLURALNAME: 'Dashboard Felder Data Objects'
     SINGULARNAME: 'Dashboard Feld Data Object'
-  ilateral\SilverStripe\Dashboard\DashboardQuickLink:
+  Sunnysideup\Dashboard\DashboardQuickLink:
     LINK: 'Link (mit http://)'
     LINKTEXT: 'Link text'
     NEWWINDOW: 'Öffnet link in einem neuen Fenster'
     PLURALNAME: 'Dashboard Quick Links'
     SINGULARNAME: 'Dashboard Quick Link'
-  ilateral\SilverStripe\Dashboard\DashboardQuickLinksPanel:
+  Sunnysideup\Dashboard\DashboardQuickLinksPanel:
     PLURALNAME: 'Dashboard Quick Links Felder'
     SINGULARNAME: 'Dashboard Quick Links Feld'
-  ilateral\SilverStripe\Dashboard\DashboardRSSFeedPanel:
+  Sunnysideup\Dashboard\DashboardRSSFeedPanel:
     PLURALNAME: 'Dashboard R S S Feed Felder'
     SINGULARNAME: 'Dashboard R S S Feed Feld'
-  ilateral\SilverStripe\Dashboard\DashboardRecentEdits:
+  Sunnysideup\Dashboard\DashboardRecentEdits:
     COUNT: 'Anzahl der Seiten zur Anzeige'
-  ilateral\SilverStripe\Dashboard\DashboardRecentEditsPanel:
+  Sunnysideup\Dashboard\DashboardRecentEditsPanel:
     PLURALNAME: 'Dashboard Zuletzt Editiert Felder'
     SINGULARNAME: 'Dashboard Zuletzt Editiert Felder'
-  ilateral\SilverStripe\Dashboard\DashboardRecentFile:
+  Sunnysideup\Dashboard\DashboardRecentFile:
     COUNT: 'Anzahl der Dateien zur Anzeige'
-  ilateral\SilverStripe\Dashboard\DashboardRecentFilesPanel:
+  Sunnysideup\Dashboard\DashboardRecentFilesPanel:
     PLURALNAME: 'Dashboard Letzte Dateien Felder'
     SINGULARNAME: 'Dashboard Letzte Dateien Felde'
-  ilateral\SilverStripe\Dashboard\DashboardSectionEditorPanel:
+  Sunnysideup\Dashboard\DashboardSectionEditorPanel:
     PLURALNAME: 'Dashboard Bereichs-Editor Felder'
     SINGULARNAME: 'Dashboard Bereichs-Editor Felde'
-  ilateral\SilverStripe\Dashboard\DashboardWeatherPanel:
+  Sunnysideup\Dashboard\DashboardWeatherPanel:
     PLURALNAME: 'Dashboard Wetter Felder'
     SINGULARNAME: 'Dashboard Wetter Feld'
   SilverStripe\Security\Permission:

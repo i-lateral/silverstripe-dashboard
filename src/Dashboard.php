@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard;
+namespace Sunnysideup\Dashboard;
 
 use SilverStripe\ORM\DataList;
 use SilverStripe\ORM\ArrayList;
@@ -15,7 +15,7 @@ use SilverStripe\Control\RequestHandler;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Core\Manifest\ClassLoader;
 use SilverStripe\Security\PermissionProvider;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardPanel;
+use Sunnysideup\Dashboard\Panels\DashboardPanel;
 
 /**
  * Defines the Dashboard interface for the CMS
@@ -205,15 +205,15 @@ class Dashboard extends LeftAndMain implements PermissionProvider
             if ($member->ID == $curr_member->ID) {
 				continue;
             }
-            
+
             $member->DashboardPanels()->removeAll();
 
             /** @var DashboardPanel $panel */
             foreach (Security::getCurrentUser()->DashboardPanels() as $panel) {
-                $clone = $panel->duplicate();                    
+                $clone = $panel->duplicate();
                 $clone->MemberID = $member->ID;
                 $clone->write();
-            }            
+            }
         }
 
         return new HTTPResponse(_t(
@@ -231,7 +231,7 @@ class Dashboard extends LeftAndMain implements PermissionProvider
     {
         return Security::getCurrentUser()->DashboardPanels();
     }
-    
+
     /**
      * Gets the current user's dashboard configuration
      *
@@ -302,7 +302,7 @@ class Dashboard extends LeftAndMain implements PermissionProvider
         return Permission::check("CMS_ACCESS_Dashboard");
     }
 
-    /** 
+    /**
      * Check if the current user can add panels to the dashboard
      *
      * @return bool
@@ -312,7 +312,7 @@ class Dashboard extends LeftAndMain implements PermissionProvider
         return Permission::check("CMS_ACCESS_DashboardAddPanels");
     }
 
-    /** 
+    /**
      * Check if the current user can delete panels from the dashboard
      *
      * @return bool
@@ -322,7 +322,7 @@ class Dashboard extends LeftAndMain implements PermissionProvider
         return Permission::check("CMS_ACCESS_DashboardDeletePanels");
     }
 
-    /** 
+    /**
      * Check if the current user can configure panels on the dashboard
      *
      * @return bool

@@ -17,6 +17,10 @@
         {
             "name": "Morven Lewis-Everley",
             "email": "morven@ilateral.co.uk"
+        },
+        {
+            "name": "Sunny Side Up",
+            "email": "nt@sunnysideup.co.nz"
         }
     ],
     "require": {
@@ -27,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\Dashboard\\": "src/"
+            "Sunnysideup\\Dashboard\\": "src/"
         }
     },
     "extra": {

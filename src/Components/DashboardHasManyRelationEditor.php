@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Components;
+namespace Sunnysideup\Dashboard\Components;
 
 use SilverStripe\ORM\DataList;
 use SilverStripe\ORM\ArrayList;
@@ -11,8 +11,8 @@ use SilverStripe\Core\Config\Config;
 use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Control\HTTPResponse;
 use SilverStripe\Core\Injector\Injector;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardPanel;
-use ilateral\SilverStripe\Dashboard\DashboardPanelDataObject;
+use Sunnysideup\Dashboard\Panels\DashboardPanel;
+use Sunnysideup\Dashboard\DashboardPanelDataObject;
 
 /**
  * A custom FormField object used to manage has_many relations to a DashboardPanel.
@@ -34,11 +34,11 @@ class DashboardHasManyRelationEditor extends FormField
     ];
 
     /**
-     * @var DashboardPanel The {@link DashboardPanel} that owns this editor     
+     * @var DashboardPanel The {@link DashboardPanel} that owns this editor
      */
     protected $controller;
 
-    /** 
+    /**
      * @var string The name of the relationship that is managed by this editor
      */
     protected $relationName;
@@ -46,10 +46,10 @@ class DashboardHasManyRelationEditor extends FormField
     /**
      * @var string The class of the related object
      */
-    protected $relationClass;    
+    protected $relationClass;
 
     /**
-     * @var DataList The current list of records in the relation     
+     * @var DataList The current list of records in the relation
      */
     protected $records;
 
@@ -135,7 +135,7 @@ class DashboardHasManyRelationEditor extends FormField
         if($item) {
             $handler = DashboardHasManyRelationEditorItemRequest::create($this->controller->getDashboard(), $this->controller, $this, $item);
             return $handler->handleRequest($r);
-        }        
+        }
         return $this->httpError(404);
     }
 

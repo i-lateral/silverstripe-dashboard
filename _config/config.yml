@@ -4,13 +4,13 @@ Name: dashboardconfig
 
 SilverStripe\Security\Member:
   extensions:
-    - ilateral\SilverStripe\Dashboard\Extensions\DashboardMember
+    - Sunnysideup\Dashboard\Extensions\DashboardMember
 
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - ilateral\SilverStripe\Dashboard\Extensions\DashboardSiteConfig
+    - Sunnysideup\Dashboard\Extensions\DashboardSiteConfig
 
 # this is so generic, it can break lots of other things.
 #SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
 #  extensions:
-#    - ilateral\SilverStripe\Dashboard\Extensions\DashboardItemEditForm
+#    - Sunnysideup\Dashboard\Extensions\DashboardItemEditForm

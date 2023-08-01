@@ -1,12 +1,12 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard;
+namespace Sunnysideup\Dashboard;
 
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Forms\FieldList;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardPanel;
+use Sunnysideup\Dashboard\Panels\DashboardPanel;
 
-/** 
+/**
  * A {@link DataObject} subclass that is required for use on a has_many relationship
  * on a DashboardPanel when being managed with a {@link DashboardHasManyRelationEditor}
  *

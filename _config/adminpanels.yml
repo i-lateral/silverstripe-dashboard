@@ -4,7 +4,7 @@ After: cmsdefaultadmin #Override the CMS module's setting (if CMS is installed)
 ---
 
 SilverStripe\Admin\AdminRootController:
-  default_panel: 'ilateral\SilverStripe\Dashboard\Dashboard'
+  default_panel: 'Sunnysideup\SilverStripe\Dashboard\Dashboard'
 
 # Inject custom styles and JS
 SilverStripe\Admin\LeftAndMain:
