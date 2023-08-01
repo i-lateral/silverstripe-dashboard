@@ -6,8 +6,8 @@ welcome any feedback that a user may have.
 If you encounter any issues, have any ideas or want to request a feature,
 please use the following links:
 
- * [Sharing your opinion and raising issues](https://github.com/sunnysideup/silverstripe-dashboard/issues)
- * [Submit a pull request](https://github.com/sunnysideup/silverstripe-dashboard/pulls)
+ * [Sharing your opinion and raising issues](https://github.com/sunnysideup/dashboard/issues)
+ * [Submit a pull request](https://github.com/sunnysideup/dashboard/pulls)
 
 ## Translations
 

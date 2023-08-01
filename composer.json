@@ -1,11 +1,10 @@
 {
     "name": "sunnysideup/dashboard",
     "description": "Adds a customisable dashboard to the SilverStripe CMS (fork of Unclecheese's module)",
-    "type": "silverstripe-vendormodule",
+    "type": "vendormodule",
     "keywords": [
         "silverstripe",
         "dashboard",
-        "module",
         "cms"
     ],
 	"license": "BSD-3-Clause",
@@ -42,7 +41,7 @@
         ]
     },
     "support": {
-        "issues": "http://github.com/sunnysideup/silverstripe-dashboard/issues"
+        "issues": "http://github.com/sunnysideup/dashboard/issues"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
