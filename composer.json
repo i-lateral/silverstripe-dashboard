@@ -1,5 +1,5 @@
 {
-    "name": "sunnysideup/silverstripe-dashboard",
+    "name": "sunnysideup/dashboard",
     "description": "Adds a customisable dashboard to the SilverStripe CMS (fork of Unclecheese's module)",
     "type": "silverstripe-vendormodule",
     "keywords": [
