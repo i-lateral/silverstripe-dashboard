@@ -9,11 +9,11 @@ SilverStripe\Admin\AdminRootController:
 # Inject custom styles and JS
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
-    - "i-lateral/silverstripe-dashboard:javascript/jquery.flip.js"
-    - "i-lateral/silverstripe-dashboard:javascript/dashboard.js"
-    - "i-lateral/silverstripe-dashboard:javascript/thirdparty/google_jsapi_visualization.js"
-    - "i-lateral/silverstripe-dashboard:javascript/dashboard-chart.js"
-    - "i-lateral/silverstripe-dashboard:javascript/dashboard-button-options.js"
+    - "sunnysideup/silverstripe-dashboard:javascript/jquery.flip.js"
+    - "sunnysideup/silverstripe-dashboard:javascript/dashboard.js"
+    - "sunnysideup/silverstripe-dashboard:javascript/thirdparty/google_jsapi_visualization.js"
+    - "sunnysideup/silverstripe-dashboard:javascript/dashboard-chart.js"
+    - "sunnysideup/silverstripe-dashboard:javascript/dashboard-button-options.js"
   extra_requirements_css:
-    - "i-lateral/silverstripe-dashboard:css/dashboard.css"
-    - "i-lateral/silverstripe-dashboard:css/dashboard_icon.css"
+    - "sunnysideup/silverstripe-dashboard:css/dashboard.css"
+    - "sunnysideup/silverstripe-dashboard:css/dashboard_icon.css"

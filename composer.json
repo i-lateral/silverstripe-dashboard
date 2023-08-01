@@ -38,7 +38,7 @@
         ]
     },
     "support": {
-        "issues": "http://github.com/i-lateral/silverstripe-dashboard/issues"
+        "issues": "http://github.com/sunnysideup/silverstripe-dashboard/issues"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
