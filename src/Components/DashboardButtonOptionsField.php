@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Components;
+namespace Sunnysideup\Dashboard\Components;
 
 use SilverStripe\Forms\OptionsetField;
 

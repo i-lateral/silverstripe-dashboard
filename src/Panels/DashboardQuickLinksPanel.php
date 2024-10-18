@@ -1,11 +1,11 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Panels;
+namespace Sunnysideup\Dashboard\Panels;
 
 use SilverStripe\Forms\FieldList;
-use ilateral\SilverStripe\Dashboard\Dashboard;
-use ilateral\SilverStripe\Dashboard\Components\DashboardQuickLink;
-use ilateral\SilverStripe\Dashboard\Components\DashboardHasManyRelationEditor;
+use Sunnysideup\Dashboard\Dashboard;
+use Sunnysideup\Dashboard\Components\DashboardQuickLink;
+use Sunnysideup\Dashboard\Components\DashboardHasManyRelationEditor;
 
 /**
  * Defines the "Quick Links" dashboard panel type
@@ -16,7 +16,7 @@ use ilateral\SilverStripe\Dashboard\Components\DashboardHasManyRelationEditor;
 class DashboardQuickLinksPanel extends DashboardPanel
 {
     private static $table_name = 'DashboardQuickLinksPanel';
-    
+
     private static $has_many = [
         'Links' => DashboardQuickLink::class
     ];

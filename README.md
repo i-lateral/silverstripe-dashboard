@@ -7,7 +7,7 @@ The Dashboard module provides a splash page for the CMS in SilverStripe 4 with c
 
 
 ## Screenshot & Videos
-Images and videos about this module can be found [in this blog post.](https://www.silverstripe.org/blog/the-dashboard-module-make-a-splash-in-silverstripe-3/)
+Images and videos about this module can be found [in this blog post.](https://www.silverstripe.org/blog/the-dashboard-module-make-a-splash-in-3/)
 
 
 ## Included panels
@@ -41,7 +41,7 @@ First, create a class for the panel as a descendant of DashboardPanel. We'll inc
 
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\CheckboxField;
-use ilateral\SilverStripe\Dashboard\DashboardPanel;
+use Sunnysideup\Dashboard\DashboardPanel;
 
 class DashboardRecentOrdersPanel extends DashboardPanel {
 
@@ -49,30 +49,30 @@ class DashboardRecentOrdersPanel extends DashboardPanel {
     'Count' => 'Int',
     'OnlyShowShipped' => 'Boolean'
   ];
-  
-  
+
+
   private static $icon = "mysite/images/dashboard-recent-orders.png";
-  
-  
+
+
   public function getLabel() {
     return _t('Mysite.RECENTORDERS','Recent Orders');
   }
-  
-  
+
+
   public function getDescription() {
     return _t('Mysite.RECENTORDERSDESCRIPTION','Shows recent orders for this fake website.');
   }
-  
-  
+
+
   public function getConfigurationFields() {
     $fields = parent::getConfigurationFields();
     $fields->push(TextField::create("Count", "Number of orders to show"));
     $fields->push(CheckboxField::create("OnlyShowShipped","Only show shipped orders"));
     return $fields;
   }
-  
-  
-  
+
+
+
   public function Orders() {
     $orders = Order::get()->sort("Created DESC")->limit($this->Count);
     return $this->OnlyShowShipped ? $orders->filter(['Shipped' => true]) : $orders;
@@ -146,7 +146,7 @@ You can create your own templates for either of these panel types which will ove
 You can access all the properties of your model in the template as normal along with a EditLink method which will contain the CMS edit link for that item.
 
 
-For model admin panels, create a templated called DashboardModelAdminPanel\_**ModelAdminClass**\_**ModelAdminModel**.ss and place it in your _mysite/templates/Includes folder_. 
+For model admin panels, create a templated called DashboardModelAdminPanel\_**ModelAdminClass**\_**ModelAdminModel**.ss and place it in your _mysite/templates/Includes folder_.
 eg;
 **DashboardModelAdminPanel\_MyAdmin\_Product.ss**
 
@@ -162,7 +162,7 @@ You need to add your Google Analytics config information to the project config.y
 DashboardGoogleAnalyticsPanel:
   email: [XXXXX]@developer.gserviceaccount.com
   profile: 123456
-  key_file_path: google_oauth.p12  
+  key_file_path: google_oauth.p12
 ```
 To locate your profile ID, visit the Google Analytics website, login and select the website. At the end of the URL will be fragment similar to this:
 ```

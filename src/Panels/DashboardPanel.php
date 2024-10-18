@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Panels;
+namespace Sunnysideup\Dashboard\Panels;
 
 use SilverStripe\Forms\Form;
 use SilverStripe\ORM\ArrayList;
@@ -13,9 +13,9 @@ use SilverStripe\Control\Controller;
 use SilverStripe\Security\Permission;
 use SilverStripe\SiteConfig\SiteConfig;
 use SilverStripe\Core\Injector\Injector;
-use ilateral\SilverStripe\Dashboard\Dashboard;
+use Sunnysideup\Dashboard\Dashboard;
 use SilverStripe\Core\Manifest\ModuleResourceLoader;
-use ilateral\SilverStripe\Dashboard\Components\DashboardButtonOptionsField;
+use Sunnysideup\Dashboard\Components\DashboardButtonOptionsField;
 use SilverStripe\Core\Config\Config;
 
 /**
@@ -144,7 +144,7 @@ class DashboardPanel extends DataObject
     {
         $icon_class = Config::inst()
             ->get(static::class, 'font_icon');
-        
+
         if (empty($icon_class)) {
             return "";
         }
@@ -226,7 +226,7 @@ class DashboardPanel extends DataObject
         // Cannot be an empty string because SilverStripe\i18n\i18n::_t()
         // would yell that a default should be defined. So use a space as a workaround.
         $default_size_title = ' ';
-        
+
         return FieldList::create(
             DashboardButtonOptionsField::create(
                 "PanelSize",
@@ -281,7 +281,7 @@ class DashboardPanel extends DataObject
      */
     public function getSize(): string
     {
-        return $this->PanelSize;
+        return (string) $this->PanelSize;
     }
 
     /**

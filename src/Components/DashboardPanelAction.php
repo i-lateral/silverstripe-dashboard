@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Components;
+namespace Sunnysideup\Dashboard\Components;
 
 use SilverStripe\View\ViewableData;
 
@@ -24,7 +24,7 @@ class DashboardPanelAction extends ViewableData
     protected $Title;
 
     /**
-     * @var string The type of action. Default is the plain button color. 
+     * @var string The type of action. Default is the plain button color.
      *                A value of "good" will provide a green "constructive" button
      *
      * @todo More button types?

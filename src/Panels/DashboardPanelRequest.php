@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Panels;
+namespace Sunnysideup\Dashboard\Panels;
 
 use SilverStripe\Forms\Form;
 use SilverStripe\Forms\FieldList;
@@ -8,7 +8,7 @@ use SilverStripe\Forms\FormAction;
 use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Control\HTTPResponse;
 use SilverStripe\Control\RequestHandler;
-use ilateral\SilverStripe\Dashboard\Dashboard;
+use Sunnysideup\Dashboard\Dashboard;
 
 /**
  * Defines the {@link RequestHandler} object that is responsible for rendering dashboard panels
@@ -43,7 +43,7 @@ class DashboardPanelRequest extends RequestHandler
 
     public function __construct(Dashboard $dashboard, DashboardPanel $panel)
     {
-        $this->dashboard = $dashboard;        
+        $this->dashboard = $dashboard;
         $this->panel = $panel;
         parent::__construct();
     }
@@ -79,7 +79,7 @@ class DashboardPanelRequest extends RequestHandler
         if(!$panel->canView()) {
             return $this->httpError(403);
         }
-        
+
         return $panel->getPanelHolder();
     }
 

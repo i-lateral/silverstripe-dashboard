@@ -1,12 +1,12 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Components;
+namespace Sunnysideup\Dashboard\Components;
 
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\CheckboxField;
-use ilateral\SilverStripe\Dashboard\DashboardPanelDataObject;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardQuickLinksPanel;
+use Sunnysideup\Dashboard\DashboardPanelDataObject;
+use Sunnysideup\Dashboard\Panels\DashboardQuickLinksPanel;
 
 /**
  * Defines the "quick link" dataobject that is used in {@link DashboardQuickLinksPanel}
@@ -27,7 +27,7 @@ class DashboardQuickLink extends DashboardPanelDataObject
     private static $has_one = [
         'Panel' => DashboardQuickLinksPanel::class,
     ];
-    
+
     private static $label_field = "Text";
 
     public function getConfigurationFields(): FieldList

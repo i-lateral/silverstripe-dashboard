@@ -3,11 +3,11 @@ es:
     AddNew: 'Agregar nueva página'
     ListFiltered: 'Lista filtrada.'
     TreeFilteredClear: 'Limpiar filtro'
-  ilateral\SilverStripe\Dashboard\Dashboard_Content:
+  Sunnysideup\Dashboard\Dashboard_Content:
     ADMINISTRATION: Administración
-  ilateral\SilverStripe\Dashboard\DashbordModelAdmin:
+  Sunnysideup\Dashboard\DashbordModelAdmin:
     COUNT: 'Objetos a mostrar'
-  ilateral\SilverStripe\Dashboard\Dashboard:
+  Sunnysideup\Dashboard\Dashboard:
     QUICKLINKSDESCRIPTION: 'Enlaces arbitrarios en el panel de control'
     SECTIONEDITORDESCRIPTION: 'Agrega páginas a sección del sitio'
     ACCESS: 'Acceso a la sección ''{title}'''
@@ -67,44 +67,44 @@ es:
     WEATHER: Clima
     WEATHERDESCRIPTION: 'Clima de un lugar en el mundo.'
     WEATHERNORESPONSE: 'El servidor de climas no responde, deben tener una tormenta por ahí.'
-  ilateral\SilverStripe\Dashboard\DashboardGoogleAnalyticsPanel:
+  Sunnysideup\Dashboard\DashboardGoogleAnalyticsPanel:
     PLURALNAME: 'Paneles de control para Google Analytics'
     SINGULARNAME: 'Panel de control para Google Analytics'
-  ilateral\SilverStripe\Dashboard\DashboardModelAdminPanel:
+  Sunnysideup\Dashboard\DashboardModelAdminPanel:
     PLURALNAME: 'Model Admins'
     SINGULARNAME: 'Model Admin'
-  ilateral\SilverStripe\Dashboard\DashboardPanel:
+  Sunnysideup\Dashboard\DashboardPanel:
     PLURALNAME: 'Paneles de control'
     SINGULARNAME: 'Panel de control'
-  ilateral\SilverStripe\Dashboard\DashboardPanelDataObject:
+  Sunnysideup\Dashboard\DashboardPanelDataObject:
     PLURALNAME: 'Paneles de control para Data Objects'
     SINGULARNAME: 'Panel de control para Data Objects'
-  ilateral\SilverStripe\Dashboard\DashboardQuickLink:
+  Sunnysideup\Dashboard\DashboardQuickLink:
     LINK: 'Enlace (incluír http://)'
     LINKTEXT: 'Texto del enlace'
     NEWWINDOW: 'Abrir el enlace en una ventana nueva'
     PLURALNAME: 'Enlaces rápidos para el panel de control'
     SINGULARNAME: 'Enlace rápido para el panel de control'
-  ilateral\SilverStripe\Dashboard\DashboardQuickLinksPanel:
+  Sunnysideup\Dashboard\DashboardQuickLinksPanel:
     PLURALNAME: 'Paneles de control para enlaces'
     SINGULARNAME: 'Panel de control para enlaces'
-  ilateral\SilverStripe\Dashboard\DashboardRSSFeedPanel:
+  Sunnysideup\Dashboard\DashboardRSSFeedPanel:
     PLURALNAME: 'Paneles de control para RSS'
     SINGULARNAME: 'Panel de control para RSS'
-  ilateral\SilverStripe\Dashboard\DashboardRecentEdits:
+  Sunnysideup\Dashboard\DashboardRecentEdits:
     COUNT: 'Número de páginas a mostrar'
-  ilateral\SilverStripe\Dashboard\DashboardRecentEditsPanel:
+  Sunnysideup\Dashboard\DashboardRecentEditsPanel:
     PLURALNAME: 'Paneles de control para páginas recién editadas'
     SINGULARNAME: 'Panel de control para páginas recién editadas'
-  ilateral\SilverStripe\Dashboard\DashboardRecentFile:
+  Sunnysideup\Dashboard\DashboardRecentFile:
     COUNT: 'Número de archivos a mostrar'
-  ilateral\SilverStripe\Dashboard\DashboardRecentFilesPanel:
+  Sunnysideup\Dashboard\DashboardRecentFilesPanel:
     PLURALNAME: 'Paneles de control para archivos'
     SINGULARNAME: 'Panel de control para archivos'
-  ilateral\SilverStripe\Dashboard\DashboardSectionEditorPanel:
+  Sunnysideup\Dashboard\DashboardSectionEditorPanel:
     PLURALNAME: 'Paneles de control para el panel de edición'
     SINGULARNAME: 'Panel de control para el panel de edición'
-  ilateral\SilverStripe\Dashboard\DashboardWeatherPanel:
+  Sunnysideup\Dashboard\DashboardWeatherPanel:
     PLURALNAME: 'Paneles de control para el panel del tiempo'
     SINGULARNAME: 'Panel de control para el panel del tiempo'
   SilverStripe\Security\Permission:

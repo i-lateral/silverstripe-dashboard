@@ -1,13 +1,13 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Extensions;
+namespace Sunnysideup\Dashboard\Extensions;
 
 use SilverStripe\ORM\DB;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Security\Member;
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\SiteConfig\SiteConfig;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardPanel;
+use Sunnysideup\Dashboard\Panels\DashboardPanel;
 
 /**
  * Decorates the Member object to work with the Dashboard interface

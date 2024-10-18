@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Extensions;
+namespace Sunnysideup\Dashboard\Extensions;
 
 use SilverStripe\CMS\Controllers\CMSMain;
 use SilverStripe\Core\Extension;

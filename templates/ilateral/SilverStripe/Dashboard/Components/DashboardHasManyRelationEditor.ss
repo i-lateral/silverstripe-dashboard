@@ -2,7 +2,7 @@
 	<div class="dashboard-has-many-editor-header">
 		$Title
 		<a class="btn btn-primary btn-sm mx-0" href="{$AddLink}">
-			<%t ilateral\SilverStripe\Dashboard\Dashboard.ADD 'Add' %>
+			<%t Sunnysideup\Dashboard\Dashboard.ADD 'Add' %>
 		</a>
 	</div>
 	<% if $Items %>
@@ -17,7 +17,7 @@
 			<% end_loop %>
 		</ul>
 	<% else %>
-		<div class="dashboard-has-many-norecords"><%t ilateral\SilverStripe\Dashboard\Dashboard.NORECORDS 'No records' %></div>
+		<div class="dashboard-has-many-norecords"><%t Sunnysideup\Dashboard\Dashboard.NORECORDS 'No records' %></div>
 	<% end_if %>
 
 	<div class="dashboard-has-many-editor-form" data-url="$Link('item/new')">

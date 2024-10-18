@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\Dashboard\Components;
+namespace Sunnysideup\Dashboard\Components;
 
 use SilverStripe\Forms\Form;
 use SilverStripe\ORM\DataList;
@@ -11,9 +11,9 @@ use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Control\HTTPResponse;
 use SilverStripe\Control\RequestHandler;
 use SilverStripe\Core\Injector\Injector;
-use ilateral\SilverStripe\Dashboard\Dashboard;
-use ilateral\SilverStripe\Dashboard\Panels\DashboardPanel;
-use ilateral\SilverStripe\Dashboard\DashboardPanelDataObject;
+use Sunnysideup\Dashboard\Dashboard;
+use Sunnysideup\Dashboard\Panels\DashboardPanel;
+use Sunnysideup\Dashboard\DashboardPanelDataObject;
 
 /**
  * Defines the {@link RequestHandler} object that handles an item belonging to the editor
@@ -34,7 +34,7 @@ class DashboardHasManyRelationEditorItemRequest extends RequestHandler
      */
     protected $dashboard;
 
-    /** 
+    /**
      * @var DashboardPanel The dashboard panel that owns the editor that is running the request
      */
     protected $panel;
@@ -96,7 +96,7 @@ class DashboardHasManyRelationEditorItemRequest extends RequestHandler
         return Controller::join_links($this->editor->Link(), "item", $this->item->ID ? $this->item->ID : "new", $action);
     }
 
-    /** 
+    /**
      * A link to refresh the editor
      *
      * @return string
@@ -124,7 +124,7 @@ class DashboardHasManyRelationEditorItemRequest extends RequestHandler
                 FormAction::create('cancel', _t('Dashboard.CANCEL', 'Cancel'))
                     ->setUseButtonTag(true)
                     ->addExtraClass('small')
-            )        
+            )
         );
         $form->setHTMLID("Form_DetailForm_".$this->panel->ID."_".$this->item->ID);
         $form->loadDataFrom($this->item);

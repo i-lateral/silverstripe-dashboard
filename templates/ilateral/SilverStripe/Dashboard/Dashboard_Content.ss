@@ -7,16 +7,16 @@
 		<div class="dashboard-top-buttons">
 			<% if $CanAddPanels %>
 				<a class="btn btn-primary manage-dashboard" href="javascript:void(0);">
-					<%t ilateral\SilverStripe\Dashboard\Dashboard.ADDPANEL 'New Panel' %>
+					<%t Sunnysideup\Dashboard\Dashboard.ADDPANEL 'New Panel' %>
 				</a>
 			<% end_if %>
 
 			<% if $IsAdmin %>
 				<span class="ss-fancy-dropdown right">
-					<a class="btn btn-secondary ss-fancy-dropdown-btn" href="javascript:void(0)"><%t ilateral\SilverStripe\Dashboard\Dashboard_Content.ADMINISTRATION 'Administration' %></a>
+					<a class="btn btn-secondary ss-fancy-dropdown-btn" href="javascript:void(0)"><%t Sunnysideup\Dashboard\Dashboard_Content.ADMINISTRATION 'Administration' %></a>
 					<span class="ss-fancy-dropdown-options">
-						<a class="set-as-default dashboard-message-link" href="$Link('setdefault')"><%t ilateral\SilverStripe\Dashboard\Dashboard.SETASDEFAULT 'Make this the default dashboard' %></a>
-						<a class="apply-to-all dashboard-message-link" href="$Link('applytoall')"><%t ilateral\SilverStripe\Dashboard\Dashboard.APPLYTOALL 'Apply this dashboard to all members' %></a>
+						<a class="set-as-default dashboard-message-link" href="$Link('setdefault')"><%t Sunnysideup\Dashboard\Dashboard.SETASDEFAULT 'Make this the default dashboard' %></a>
+						<a class="apply-to-all dashboard-message-link" href="$Link('applytoall')"><%t Sunnysideup\Dashboard\Dashboard.APPLYTOALL 'Apply this dashboard to all members' %></a>
 					</span>
 				</span>
 			<% end_if %>
@@ -39,7 +39,7 @@
 							<span class="font-icon font-icon-cog"></span>
 						</div>
 
-						<h3><%t ilateral\SilverStripe\Dashboard\Dashboard.CHOOSEPANELTYPE 'Choose a panel type' %></h3>
+						<h3><%t Sunnysideup\Dashboard\Dashboard.CHOOSEPANELTYPE 'Choose a panel type' %></h3>
 					</div>
 					<div class="dashboard-panel-content">
 						<div class="row mx-0">
@@ -60,7 +60,7 @@
 					</div>
 					<div class="dashboard-panel-footer">
 						<div class="dashboard-panel-footer-actions">
-							<button class="btn btn-secondary dashboard-create-cancel"><%t ilateral\SilverStripe\Dashboard\Dashboard.CANCEL 'Cancel' %></button>
+							<button class="btn btn-secondary dashboard-create-cancel"><%t Sunnysideup\Dashboard\Dashboard.CANCEL 'Cancel' %></button>
 						</div>
 					</div>
 				</div>

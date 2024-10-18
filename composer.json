@@ -1,11 +1,10 @@
 {
-    "name": "i-lateral/silverstripe-dashboard",
+    "name": "sunnysideup/dashboard",
     "description": "Adds a customisable dashboard to the SilverStripe CMS (fork of Unclecheese's module)",
-    "type": "silverstripe-vendormodule",
+    "type": "vendormodule",
     "keywords": [
         "silverstripe",
         "dashboard",
-        "module",
         "cms"
     ],
 	"license": "BSD-3-Clause",
@@ -17,17 +16,21 @@
         {
             "name": "Morven Lewis-Everley",
             "email": "morven@ilateral.co.uk"
+        },
+        {
+            "name": "Sunny Side Up",
+            "email": "nt@sunnysideup.co.nz"
         }
     ],
     "require": {
-        "silverstripe/framework": "^4.0"
+        "silverstripe/framework": "^4.0 || ^5.0"
     },
     "replace": {
         "silverstripe/dashboard": "*"
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\Dashboard\\": "src/"
+            "Sunnysideup\\Dashboard\\": "src/"
         }
     },
     "extra": {
@@ -38,7 +41,7 @@
         ]
     },
     "support": {
-        "issues": "http://github.com/i-lateral/silverstripe-dashboard/issues"
+        "issues": "http://github.com/sunnysideup/dashboard/issues"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
